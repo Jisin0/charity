@@ -80,10 +80,6 @@ body {
     }
 }
 
-.cloud {
-    z-index: 2;
-}
-
 .title {
     z-index: 900;
     font-size: 5rem;
@@ -117,6 +113,10 @@ body {
 
 .sec p {
     color: aliceblue;
+}
+
+.mainContainer {
+    padding: 4rem;
 }
 
 footer {
@@ -176,7 +176,7 @@ footer li svg {
     transform: translateX(-20px);
 }
 
-.fade-in.right.visible {
+.fade-in.left.visible {
     opacity: 1;
     transform: translateX(0);
 }
@@ -184,7 +184,7 @@ footer li svg {
 .card {
     padding: 2rem;
     background-color: #fffafa;
-    margin: 3rem;
+    margin-bottom: 3rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border: 1px solid #ddd;
@@ -193,4 +193,37 @@ footer li svg {
 .card h2 {
     font-size: 2.5em;
     font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.mainContainer h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.mainContainer p {
+    font-size: large;
+}
+
+.cardsContainer {
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 0;
+    gap: 10px;
+    row-gap: 0;
+    flex-wrap: wrap;
+}
+
+.cardsContainer .card {
+    align-content: center;
+    margin-bottom: 2.75%;
+    max-width: 500px;
 }
