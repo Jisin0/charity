@@ -158,6 +158,155 @@ export default function Home() {
               · <b>Managing</b> administrative tasks and charity operations <br/>
               · Organising cultural events, trips, and workshops  <br/>
             </i>
+            <br/>
+            <q>I believe that Slovenské Vzdelávacie Centrum - South Manchester is more than just a school—its a place where we can connect, support one another, and celebrate the traditions that are important for us and our children.</q>
+          </p>
+        </div>
+
+        <div className="card fade-in right">
+          <h3>  Mgr. Denisa Amini   </h3>
+          <i><b>Co-Founder | Trustee | Advisor for Families Moving to Slovakia | International School Educator & Project Coordinator </b></i>
+          <br/><br/>
+          <p>
+            Originally from <b>Prešov</b>, Denisa spent nearly <b>20 years</b> living in Manchester before moving back to Slovakia, where she now works at an <b>International School in Košice</b>. 
+            <br/><br/>
+            With a <b>degree in History and Civics Education</b>, Denisa has always been passionate about <b>bridging the Slovak and UK education systems</b>. 
+            From her position in Košice, she actively supports SVC-SM by developing <b>partnerships with Slovak schools and projects</b>, helping families prepare for a smooth transition back to Slovakia. 
+            <br/><br/>
+            At SVC-SM, Denisa is dedicated for:<br/>
+            <i>
+            · Providing first-hand advice for families returning to Slovakia  <br/>
+            · Supporting students transitioning between Slovak and UK education systems   <br/>
+            · Developing partnerships with Slovak schools and educational institutions <br/>
+            · Creating projects that connect Slovak students abroad with schools in Slovakia  <br/>
+            · Introducing Slovak history in an engaging way through our programs <br/>
+            </i>
+            <br/>
+            <q>I believe that Slovenské Vzdelávacie Centrum - South Manchester is more than just a school—its a place where we can connect, support one another, and celebrate the traditions that are important for us and our children.</q>
+          </p>
+        </div>
+
+        <div className="card fade-in left">
+          <h3> Ingrid Harandza  </h3>
+          <i><b>Co-Founder | Trustee | Early Years Educator | SEN Specialist | Creative & Cultural Programs  </b></i>
+          <br/><br/>
+          <p>
+            Born in Rimavská Sobota, Ingrid has lived in Manchester for over <b>20 years</b>. With a background in early years education, she is a <b>qualified Early Years Educator</b> and works as a <b>teaching assistant</b> in a UK primary school, focusing on young learners. 
+            <br/><br/>
+            Ingrid is also a <b>Special Educational Needs (SEN) specialist</b>, ensuring that children with different learning needs receive the <b>support and inclusive education</b> they deserve. 
+            <br/><br/>
+            Her love for <b>Slovak language, literature, and storytelling</b> has been with her since childhood when she participated in <b>poetry and prose competitions</b> like <b>Hviezdoslavov Kubín</b>. 
+            <br/><br/>
+            At SVC-SM, Ingrid is responsible for:<br/>
+            <i>
+            · Providing specialized support for SEN students  <br/>
+            · Teaching Slovak to young children through play, music, and movement  <br/>
+            · Leading creative, literary, and sports activities  <br/>
+            · Organizing cultural events that bring Slovak traditions to life <br/>
+            </i>
+            <br/>
+            <q>I am excited that Slovenské Vzdelávacie Centrum - South Manchester allows me to combine my two passions—working with children and preserving our Slovak heritage—into a meaningful and supportive space for our community.</q>
+          </p>
+        </div>
+
+        <div className="card fade-in right">
+          <h3>  Zuzana Hanuliaková </h3>
+          <i><b>Volunteer | Teaching Assistant | Social Media Coordinator </b></i>
+          <br/><br/>
+          <p>
+            Zuzana is a <b>dedicated volunteer and mother of three</b>, whose passion for Slovak culture and education shines through her work at SVC-SM. 
+            She plays a vital role in <b>supporting both teachers and students</b> as a <b>teaching assistant</b>, ensuring that classes run smoothly and that each child gets the guidance they need.  
+            <br/><br/>
+            Beyond the classroom, Zuzana is also responsible for <b>managing SVC-SM’s social media presence</b>, helping to share the center’s activities, events, and achievements with the community. 
+            <br/><br/>
+            At SVC-SM, Zuzana:<br/>
+            <i>
+            · Supports teachers and students in lessons as a teaching assistant <br/>
+            · Manages social media content to keep families informed and engaged  <br/>
+            · Helps coordinate events and activities  <br/>
+            </i>
+            <br/>
+            Her <b>enthusiasm, kindness, and dedication</b> make her an invaluable part of our team! 
+          </p>
+        </div>
+
+        <div className="fade-in">
+          <h3>Meet Us in Person!</h3>
+          <p>We look forward to welcoming you to Slovenské Vzdelávacie Centrum – South Manchester! Our team is here to support you and your children on your bilingual journey, helping you stay connected to Slovak language, education, and traditions and more. </p>
+        </div>
+
+        <div className="fade-in left">
+          <h2> Our Partners </h2>
+          <p>
+          At Slovenské Vzdelávacie Centrum – South Manchester, we believe in the power of collaboration.
+          Thanks to the support of our partners, we can continue to provide high-quality Slovak language education, cultural events, and community programs for Slovak-speaking families in the UK.
+          <br/><br/>
+          We are proud to be supported by:
+          <br/>
+          <b>Úrad pre Slovákov žijúcich v zahraničí</b> – Supporting Slovak communities abroad in preserving language, culture, and national identity.<br/>
+          <b>ISEIA (International Slovak Educational Institutions & Associations)</b> – Strengthening global Slovak education through collaboration and networking.<br/>
+          <b>Association of Slovak Schools and Community Centers in the UK</b> – Bringing together Slovak educational initiatives across the UK to enhance learning opportunities.<br/>
+          <b>Univerzita Mateja Bela</b> – A key academic partner supporting our educational programs.<br/>
+          <b>Morrisons</b> – Providing local support and community refreshments sponsorship<br/>
+          <b>Manchester College</b> – Partnering with us on educational projects, including website development and student engagement.<br/>
+          <b>Porta134 Café</b> – A valued community partner that provides a welcoming space for our trustee meetings, supports us with tea and coffee at our events, and allows us to display childrens artwork.
+          <br/><br/>
+          We are always looking to <b>expand our network</b> and build new partnerships that align with our mission. If you or your organization are interested in supporting our work, please get in touch.
+          <br/><br/>
+          <b>Contact us to explore partnership opportunities. </b>
+          </p>
+        </div>
+
+        <div className="fade-in">
+          <h2>Support Us</h2>
+          <p>
+            At Slovenské Vzdelávacie Centrum – South Manchester, we are passionate about preserving the Slovak language and culture for future generations. As a registered charity, we rely on the generosity of our community to continue providing high-quality education, cultural programs, and support services.
+            <br/><br/>
+            There are <b>two key ways</b> you can help:
+          </p>
+        </div>
+
+        <br/><br/>
+
+        <div className="fade-in right">
+          <h3>Make a Donation </h3>
+          <p>
+            Your contribution helps us:
+            <br/>
+            · Provide <b>affordable Slovak language classes</b> for children and adults.<br/>
+            · Organise <b>cultural events, workshops, and community activities</b>.<br/>
+            · Develop <b>educational resources</b> for our students.<br/>
+            · Offer <b>support and guidance</b> for Slovak families in the UK.<br/>
+            <br/><br/>
+            Every donation, no matter the amount, <b>makes a real difference</b> in ensuring that Slovak heritage thrives abroad.
+          </p>
+            <br/><br/>
+          <h4>How to Donate</h4>
+          <p>
+            You can support us directly via bank transfer: <br/>
+            <b>Account Number:</b> 19215268 <br/>
+            <b>Sort Code:</b> 30-54-66
+          </p>
+        </div>
+
+        <div className="fade-in">
+          <h3>Become a Volunteer </h3>
+          <p>
+          Would you like to get involved and <b>make a direct impact</b> in our community? We are always looking for <b>enthusiastic volunteers</b> to help with:
+          <br/>
+          · <b>Teaching Assistance </b>– Supporting our educators in Slovak language lessons. <br/>
+          · <b>Event Coordination </b>– Helping organize cultural celebrations and community gatherings. <br/>
+          · <b>Fundraising & Sponsorship </b>– Assisting with grant applications and community fundraising efforts. <br/>
+          · <b>Administrative Support</b> – Assisting with the day-to-day operations of the charity. <br/>
+          · <b>Social Media & Marketing</b> – Helping us spread the word about our work. <br/>
+          <br/><br/>
+          Volunteering with us is a rewarding experience, where you can meet new people, contribute to the Slovak community, and be part of a meaningful mission.  
+          </p>
+          <br/><br/>
+
+          <h4>Interested in Volunteering? </h4>
+          <p>
+          We’d love to hear from you! <b>Get in touch</b> to find out how you can help. 
           </p>
         </div>
 
