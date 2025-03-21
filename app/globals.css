@@ -247,3 +247,13 @@ footer li svg {
     font-style: italic;
     font-weight: bold;
 }
+
+.bodyContainer {
+    margin: 5rem;
+}
+
+.mainContainer ul {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    list-style: disc;
+}
