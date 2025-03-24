@@ -1,0 +1,110 @@
+.partnersBanner {
+    margin-top: 2.5rem;
+    position: relative;
+    height: 200px;
+    width: 90%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    max-width: 1350px;
+    mask-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0), );
+}
+
+.partner:hover {
+    opacity: 0.9;
+}
+
+.partner {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    opacity: 0.6;
+    /* 7(no of items) x 200(width)*/
+    left: 1400px;
+    font-size: larger;
+    font-weight: 600;
+    animation: scrollLeft 30s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+.partner1 {
+    animation-delay: calc(30s / 7 * (7 - 1) *-1);
+}
+
+.partner2 {
+    animation-delay: calc(30s / 7 * (7 - 2) *-1);
+}
+
+.partner3 {
+    animation-delay: calc(30s / 7 * (7 - 3) *-1);
+}
+
+.partner4 {
+    animation-delay: calc(30s / 7 * (7 - 4) *-1);
+}
+
+.partner5 {
+    animation-delay: calc(30s / 7 * (7 - 5) *-1);
+}
+
+.partner6 {
+    animation-delay: calc(30s / 7 * (7 - 6) *-1);
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+.partner::after {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition: content 0.3s ease-in-out;
+    white-space: normal;
+    width: 300px;
+}
+
+.partner:hover::after {
+    opacity: 1;
+}
+
+.partner1:hover::after {
+    content: "Supporting Slovak communities abroad in preserving language, culture, and national identity";
+}
+
+.partner2:hover::after {
+    content: "Strengthening global Slovak education through collaboration and networking.";
+}
+
+.partner3:hover::after {
+    content: "Bringing together Slovak educational initiatives across the UK to enhance learning opportunities.";
+}
+
+.partner4:hover::after {
+    content: " A key academic partner supporting our educational programs.";
+}
+
+.partner5:hover::after {
+    content: "Providing local support and community refreshments sponsorship";
+}
+
+.partner6:hover::after {
+    content: "Partnering with us on educational projects, including website development and student engagement.";
+}
+
+.partner7:hover::after {
+    content: " A valued community partner that provides a welcoming space for our trustee meetings, supports us with tea and coffee at our events.";
+}

@@ -1,5 +1,7 @@
 import ParallaxBanner from "./components/ParallaxBanner";
 
+import PartnersBanner from "@/app/components/PartnersBanner/PartnersBanner";
+
 export default function Home() {
   return (
     <main>
@@ -242,20 +244,15 @@ export default function Home() {
           Thanks to the support of our partners, we can continue to provide high-quality Slovak language education, cultural events, and community programs for Slovak-speaking families in the UK.
           <br/><br/>
           We are proud to be supported by:
-          <br/>
-          <b>Úrad pre Slovákov žijúcich v zahraničí</b> – Supporting Slovak communities abroad in preserving language, culture, and national identity.<br/>
-          <b>ISEIA (International Slovak Educational Institutions & Associations)</b> – Strengthening global Slovak education through collaboration and networking.<br/>
-          <b>Association of Slovak Schools and Community Centers in the UK</b> – Bringing together Slovak educational initiatives across the UK to enhance learning opportunities.<br/>
-          <b>Univerzita Mateja Bela</b> – A key academic partner supporting our educational programs.<br/>
-          <b>Morrisons</b> – Providing local support and community refreshments sponsorship<br/>
-          <b>Manchester College</b> – Partnering with us on educational projects, including website development and student engagement.<br/>
-          <b>Porta134 Café</b> – A valued community partner that provides a welcoming space for our trustee meetings, supports us with tea and coffee at our events, and allows us to display childrens artwork.
-          <br/><br/>
-          We are always looking to <b>expand our network</b> and build new partnerships that align with our mission. If you or your organization are interested in supporting our work, please get in touch.
-          <br/><br/>
-          <b>Contact us to explore partnership opportunities. </b>
+          </p>
+        <PartnersBanner />
+          <p>
+            We are always looking to <b>expand our network</b> and build new partnerships that align with our mission. If you or your organization are interested in supporting our work, please get in touch.
+            <br/><br/>
+            <b>Contact us to explore partnership opportunities. </b>
           </p>
         </div>
+
 
         <div className="fade-in">
           <h2>Support Us</h2>
