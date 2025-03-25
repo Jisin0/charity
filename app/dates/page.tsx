@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Dates() {
   return (
-    <div>
+    <div className='mainContainer'>
       At Slovenské Vzdelávacie Centrum – South Manchester, we divide our academic year into four terms: Autumn, Winter, Spring, and Summer. This structure allows us to build learning themes and activities around seasonal and cultural events, while also ensuring alignment with South Manchester (Trafford Council) school holidays.
 
 We offer Saturday Slovak language lessons at two locations:

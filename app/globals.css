@@ -120,36 +120,45 @@ body {
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
+    background-color: #fff0db;
+    padding-top: 2%;
     padding-bottom: 2.5%;
-    flex-wrap: wrap;
     border-color: gray;
     border-width: 1px;
 }
 
-footer div {
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerContainer div {
     border: #171717;
     border-width: 1px;
 }
 
-footer p {
+.footerContainer p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--brown);
     padding-bottom: 1rem;
 }
 
-footer li {
+.footerContainer li {
     display: flex;
     padding-top: 1%;
     font-size: 0.75rem;
     align-items: center;
 }
 
-footer li svg {
+.footerContainer li svg {
     padding-right: 5px;
+}
+
+.volunteerFooter {
+    padding-left: 4rem;
+    padding-bottom: 4rem;
 }
 
 .fade-in {
@@ -216,7 +225,7 @@ footer li svg {
     padding-bottom: 1rem;
 }
 
-.mainContainer h4 {
+h4 {
     font-size: 1.5em;
     font-weight: 400;
     padding-bottom: 0.5rem;

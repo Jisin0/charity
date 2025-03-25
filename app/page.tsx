@@ -1,11 +1,28 @@
 import ParallaxBanner from "./components/ParallaxBanner";
+// import { useEffect } from "react";
 
 import PartnersBanner from "@/app/components/PartnersBanner/PartnersBanner";
 
 export default function Home() {
+  // useEffect(() => {
+  //   const sections = document.querySelectorAll(".fade-in");
+
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach(entry => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.classList.add("visible");
+  //       }
+  //     });
+  //   });
+
+  //   sections.forEach(section => observer.observe(section));
+
+  //   return () => observer.disconnect(); // Cleanup observer on unmount
+  // }, []);
+
   return (
     <main>
-      <script src="/animate.js" defer/>
+      {/* <script src="/animate.js" defer/> */}
 
       <ParallaxBanner />
 
@@ -300,11 +317,6 @@ export default function Home() {
           Volunteering with us is a rewarding experience, where you can meet new people, contribute to the Slovak community, and be part of a meaningful mission.  
           </p>
           <br/><br/>
-
-          <h4>Interested in Volunteering? </h4>
-          <p>
-          We’d love to hear from you! <b>Get in touch</b> to find out how you can help. 
-          </p>
         </div>
 
       </div>

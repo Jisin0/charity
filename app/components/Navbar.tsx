@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full rounded-b-lgbackdrop-blur-md shadow-md p-2 z-999 bg-gray-50/10 text-gray-50">
+    <nav className="fixed top-0 left-0 w-full rounded-b-lgbackdrop-blur-xl backdrop-blur-sm shadow-md p-2 z-999 bg-gray-50/10 text-gray-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-gray-900">
           SVC

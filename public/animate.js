@@ -1,3 +1,4 @@
+// legacy code replaced by react components now
 document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll(".fade-in");
 
@@ -7,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 entry.target.classList.add("visible");
             }
         });
-    }, { threshold: 0.1 });
+    });
 
     sections.forEach(section => observer.observe(section));
 });
