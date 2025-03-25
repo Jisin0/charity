@@ -1,7 +1,7 @@
 import ParallaxBanner from "./components/ParallaxBanner";
 // import { useEffect } from "react";
 
-import PartnersBanner from "@/app/components/PartnersBanner/PartnersBanner";
+import PartnersSlider from "@/app/components/PartnersSlider/PartnersSlider";
 
 export default function Home() {
   // useEffect(() => {
@@ -262,7 +262,7 @@ export default function Home() {
           <br/><br/>
           We are proud to be supported by:
           </p>
-        <PartnersBanner />
+        <PartnersSlider />
           <p>
             We are always looking to <b>expand our network</b> and build new partnerships that align with our mission. If you or your organization are interested in supporting our work, please get in touch.
             <br/><br/>

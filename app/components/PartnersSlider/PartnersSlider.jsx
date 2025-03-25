@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './PartnersBanner.module.css';
+import styles from './PartnersSlider.module.css';
 
-export default function PartnersBanner() {
+export default function PartnersSlider() {
   return (
-    <div className={styles.partnersBanner}>
+    <div className={styles.partnersSlider}>
       <div className={`${styles.partner} ${styles.partner1}`} data-hover-text="Test Message">Úrad pre Slovákov žijúcich v zahraničí</div>
       <div className={`${styles.partner} ${styles.partner2}`}>ISEIA (International Slovak Educational Institutions & Associations)</div>
       <div className={`${styles.partner} ${styles.partner3}`}>Association of Slovak Schools and Community Centers in the UK</div>
