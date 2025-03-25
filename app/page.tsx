@@ -28,7 +28,7 @@ export default function Home() {
 
         <section className="sec" id="about">   
           <section className="fade-in">
-            <h2>Who Are We </h2>
+            <h2>Who We Are </h2>
               <p>
                 Slovenské Vzdelávacie Centrum – South Manchester is a <b>registered charity</b> dedicated to <b>preserving and promoting Slovak language and culture</b>. 
                 We provide <b>Slovak language education</b> and organize <b>cultural and community activities</b> to help Slovak-speaking families maintain their heritage while living abroad. 

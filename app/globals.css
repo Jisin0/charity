@@ -4,6 +4,7 @@
     --background: #FFFAF0;
     --foreground: #171717;
     --brown: #86402b;
+    --alice-white: #fffafa;
 }
 
 @font-face {
@@ -192,11 +193,19 @@ footer {
 
 .card {
     padding: 2rem;
-    background-color: #fffafa;
+    background-color: var(--alice-white);
     margin-bottom: 3rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border: 1px solid #ddd;
+}
+
+.card a {
+    transition: color 0.2s ease-in-out;
+}
+
+.card a:hover {
+    color: var(--brown);
 }
 
 .card h2 {
@@ -229,6 +238,13 @@ h4 {
     font-size: 1.5em;
     font-weight: 400;
     padding-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+    padding-bottom: 0.35rem;
+    padding-top: 2rem;
 }
 
 .mainContainer p {
@@ -265,4 +281,35 @@ h4 {
     padding-top: 0.5rem;
     padding-left: 2rem;
     list-style: disc;
+}
+
+.datesTable {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 750px;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background-color: var(--alice-white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.datesTable thead tr {
+    text-align: left;
+    background-color: #e7ddaf;
+}
+
+.datesTable th,
+.datesTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.datesTable tbody tr:nth-of-type(even) {
+    background-color: #eeece4;
+}
+
+.datesTable tr:last-of-type {
+    border-bottom: 2px solid #e7ddaf;
 }
