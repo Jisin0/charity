@@ -33,10 +33,10 @@ export default function Dates() {
         <p>Although we primarily serve South Manchester, we welcome students from all areas.</p>
         <br/><br/>
         <h4>2024/2025 Term Dates</h4>
-          <table className="datesTable">
+          <table className={styles.datesTable}>
             <thead>
               <tr>
-                <th className={styles.th}>Term</th>
+                <th>Term</th>
                 <th>Start Date</th>
                 <th>End Date</th>
                 <th>Weeks</th>

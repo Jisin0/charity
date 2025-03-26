@@ -1,5 +1,30 @@
-.datesTable {}
+.datesTable {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 750px;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background-color: var(--alice-white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
 
-.th .td {
-    margin: 5rem;
+.datesTable thead tr {
+    text-align: left;
+    background-color: #e7ddaf;
+}
+
+.datesTable th,
+.datesTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.datesTable tbody tr:nth-of-type(even) {
+    background-color: #eeece4;
+}
+
+.datesTable tr:last-of-type {
+    border-bottom: 2px solid #e7ddaf;
 }
