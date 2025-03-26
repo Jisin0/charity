@@ -3,7 +3,6 @@ import styles from './Dates.module.css'
 
 export default function Dates() {
   return (
-    <div className="bodyContainer">
       <div className='mainContainer'>
         <h2>Dates & Fees</h2>
         <p>
@@ -31,7 +30,7 @@ export default function Dates() {
           </div>
         </div>
         <p>Although we primarily serve South Manchester, we welcome students from all areas.</p>
-        <br/><br/>
+       
         <h4>2024/2025 Term Dates</h4>
           <table className={styles.datesTable}>
             <thead>
@@ -77,7 +76,7 @@ export default function Dates() {
           <b>Note</b>: Term dates align with Trafford Council school holidays where possible, though some variations may apply.<br/><br/>
         <h3>Fees and Payment Options</h3>
         <p>We offer two flexible payment options: <b>Term Fees</b> for committed learners and a <b>Pay-As-You-Go</b> option for families who prefer flexibility.</p>
-        <br/><br/>
+       
         <h4>Term Fees</h4>
         <p>· <b>Autumn Term</b> (7 weeks): £84</p>
         <p>· <b>Winter Term</b> (5 weeks): £60</p>
@@ -85,7 +84,7 @@ export default function Dates() {
         <p>· <b>Summer Term</b> (6 weeks): £72</p>
         <br/>
         <p><b>Sibling Discount</b>: Each additional sibling receives a 25% discount.</p>
-        <br/><br/>
+      
         <h4>Pay-As-You-Go Option</h4>
         <p>For families who prefer flexibility, we offer a <b>Pay-As-You-Go</b> option:</p>
         · <b>Price per session</b>: £13 per Saturday <br/>
@@ -102,6 +101,5 @@ export default function Dates() {
         <p>We are currently developing a <b>monthly membership plan</b> to provide additional <b>flexibility and benefits</b>. More details will be available soon.</p>
         <p>For payment details, sibling discounts, or any queries, <b>please contact us.</b></p>
       </div>
-    </div>
   )
 }

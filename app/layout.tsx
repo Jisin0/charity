@@ -60,6 +60,12 @@ export default function RootLayout({
                 <ul></ul>
               </div>
       </div>
+      
+      <div className="footerLogoBox">
+        <a href="/"><img src="/logo.svg"/></a>
+      </div>
+
+
     </footer>
       </body>
     </html>

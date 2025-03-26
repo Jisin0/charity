@@ -294,7 +294,7 @@ export default function Home() {
             <br/><br/>
             Every donation, no matter the amount, <b>makes a real difference</b> in ensuring that Slovak heritage thrives abroad.
           </p>
-            <br/><br/>
+           
           <h4>How to Donate</h4>
           <p>
             You can support us directly via bank transfer: <br/>

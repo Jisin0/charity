@@ -75,9 +75,13 @@ body {
     pointer-events: none;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .title {
         font-weight: normal;
+    }
+    .logo {
+        width: 3em;
+        height: 3em;
     }
 }
 
@@ -114,10 +118,6 @@ body {
 
 .sec p {
     color: aliceblue;
-}
-
-.mainContainer {
-    padding: 4rem;
 }
 
 footer {
@@ -220,6 +220,10 @@ footer {
     padding-bottom: 1rem;
 }
 
+.mainContainer {
+    padding: 5vh 10vw 10vh 10vw;
+}
+
 .mainContainer h2 {
     font-size: 2.5em;
     font-weight: 700;
@@ -235,6 +239,7 @@ footer {
 }
 
 h4 {
+    padding-top: 2.5rem;
     font-size: 1.5em;
     font-weight: 400;
     padding-bottom: 0.5rem;
@@ -282,4 +287,12 @@ h5 {
     padding-top: 0.5rem;
     padding-left: 2rem;
     list-style: disc;
+}
+
+footer {}
+
+.footerLogoBox {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
 }
