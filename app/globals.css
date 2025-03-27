@@ -83,6 +83,13 @@ body {
         width: 3em;
         height: 3em;
     }
+    /* .navbarLinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 10;
+    } */
 }
 
 .title {
@@ -234,7 +241,7 @@ footer {
 .mainContainer h3 {
     font-size: 2em;
     font-weight: 600;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
 }
 
@@ -289,10 +296,10 @@ h5 {
     list-style: disc;
 }
 
-footer {}
-
 .footerLogoBox {
     width: 95%;
     display: flex;
     justify-content: flex-end;
 }
+
+.navbarLinks {}

@@ -62,7 +62,7 @@ export default function Dates() {
                 <td>01/03/2025</td>
                 <td>17/05/2025</td>
                 <td>10 Weeks</td>
-                <td>Easter Holiday (no classes 12th & 19th April) May Holiday After Term Ends </td>
+                <td>Easter Holiday (12th & 19th April) May Holiday After Term Ends </td>
               </tr>
               <tr>
                 <td>Summer</td>
