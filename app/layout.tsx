@@ -4,6 +4,7 @@ import Head from "next/head";
 
 import Navbar from "@/app/components/Navbar";
 import FadeInProvider from "@/app/components/FadeInProvider"
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Slovenské Vzdelávacie Centrum",
   description: "Slovak Charity Based in South Manchester",
@@ -62,7 +63,7 @@ export default function RootLayout({
       </div>
       
       <div className="footerLogoBox">
-        <a href="/"><img src="/logo.svg"/></a>
+        <Link href={"/"}><img src="/logo.svg"/></Link>
       </div>
 
 
