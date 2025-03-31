@@ -83,17 +83,71 @@ body {
         width: 3em;
         height: 3em;
     }
-    /* .navbarLinks {
+    .navbarLinks {
+        z-index: 150;
+        padding: 2rem;
+        gap: 10px;
         display: flex;
         flex-direction: column;
         position: absolute;
+        right: -100%;
+        top: 50;
+        height: 100vh;
+        backdrop-filter: blur(10px);
+        box-shadow: 20px 20px 5px 5px rgba(0, 0, 0, 0.2);
+        transition: right 0.3s ease-in-out;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        /* border: 0.05px solid #7e7855; */
+    }
+    #openNavbar:checked~.navbarLinks {
         right: 0;
-        top: 10;
-    } */
+    }
+    #menuButton {
+        position: relative;
+        display: block !important;
+        margin-right: 15px;
+        border-radius: 50%;
+        padding: 0.35rem;
+        transition: all 0.3s ease;
+    }
+    #menuButton:hover {
+        background-color: var(--brown);
+    }
+    #navScreenWrapper {
+        display: block !important;
+        position: absolute;
+        z-index: 149;
+        background-color: red;
+        height: 100vh;
+        width: 100vh;
+        top: 0;
+        left: 0;
+    }
+}
+
+#menuButton {
+    position: relative;
+    display: none;
+}
+
+#navScreenWrapper {
+    display: none;
+}
+
+#navScreenCheckbox {
+    display: none;
+}
+
+
+/* Navbar Open Checkbox */
+
+#openNavbar {
+    display: none;
 }
 
 .title {
-    z-index: 900;
+    z-index: 100;
     font-size: 5rem;
     font-weight: 400;
     color: var(--brown);
@@ -303,3 +357,44 @@ h5 {
 }
 
 .navbarLinks {}
+
+.formContainer {
+    position: absolute;
+    top: 15vh;
+    left: 35vw;
+    min-width: 500px;
+    min-height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #b6b3b3;
+}
+
+.formContainer form {
+    padding-left: 3em;
+}
+
+.formContainer h2 {
+    padding: 1.5em;
+    font-weight: 700;
+    font-size: 2.5em;
+    background: linear-gradient(to right, var(--foreground), var(--brown) 70%);
+    background-clip: text;
+    color: transparent;
+}
+
+.formInputWrapper {
+    position: relative;
+    display: flex;
+    padding-right: 50px;
+}
+
+.formInputWrapper label {
+    position: absolute;
+}
+
+.formInputWrapper input {
+    border: 0.25px solid var(--brown);
+    border-radius: 7.5px;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.2);
+}

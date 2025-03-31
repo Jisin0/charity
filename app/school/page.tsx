@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function School() {
   return (
-    <div className='bodyContainer'>
-
       <div className="mainContainer">
         <h2>Our Approach</h2>
         
@@ -49,7 +47,6 @@ export default function School() {
           Our approach ensures that students develop confidence in using Slovak in everyday life, while also connecting with their cultural roots in an enjoyable and meaningful
         </p>
       </div>
-    </div>
   )
 }
 

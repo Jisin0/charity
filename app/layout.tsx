@@ -29,6 +29,8 @@ export default function RootLayout({
         <Navbar />
       </header>
       
+      <input type="checkbox" id="navScreenCheckbox"></input>
+      <label id="navScreenWrappper" htmlFor="navScreenCheckbox"></label>
         {children}
 
         <footer>
