@@ -90,7 +90,7 @@ export default function Dates() {
         · <b>Price per session</b>: £13 per Saturday <br/>
         · <b>Sibling Discount</b>: Each additional sibling receives a 25% discount on their session fee. <br/>
         <h5>Example of Fees for Siblings:</h5>
-        <p>
+        <p>{styles.formWrapper}
           First Child: £13 <br/>
           Second Child (25% Discount): £9.75 <br/>
           <b>Total for Two Siblings</b>: £22.75 <br/><br/>

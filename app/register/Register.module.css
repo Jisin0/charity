@@ -7,6 +7,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .formContainer {
@@ -22,7 +23,7 @@
     border-radius: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border: 0.5px solid #b6b3b3;
-    padding: 7.5%;
+    padding: 5%;
 }
 
 .formContainer h2 {
