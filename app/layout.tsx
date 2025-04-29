@@ -49,7 +49,7 @@ export default function RootLayout({
                 <ul></ul>
               </div>
         
-              <div>
+              <div id="contact">
                 <p className="footerTitle">Contact</p>
                 <ul>
         <li>

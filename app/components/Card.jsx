@@ -24,7 +24,7 @@ const Card = ({ background, children }) => {
         {hasBackground && (
           <div
             style={{
-              backgroundColor: 'rgba(0, 0, 0, 0.4)', // Adjust darkness here
+              backgroundColor: 'rgba(0, 0, 0, 0.4)', // adjust darkness here
               position: 'absolute',
               top: 0,
               left: 0,

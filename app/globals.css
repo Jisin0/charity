@@ -281,6 +281,15 @@ footer {
     padding-bottom: 1rem;
 }
 
+.card h4 {
+    padding-top: 0.5rem;
+    ;
+}
+
+.card a {
+    color: #b67d6c;
+}
+
 .mainContainer {
     padding: 5vh 10vw 10vh 10vw;
 }
@@ -302,7 +311,7 @@ footer {
 h4 {
     padding-top: 2.5rem;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 0.5rem;
 }
 
