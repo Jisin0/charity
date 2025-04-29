@@ -7,8 +7,8 @@ export default function Register() {
     <div>
       <ParallaxBanner />
 
-        <input type="radio" id="form1Label" name="selectedForm" className='formLabel' checked/>
-        <input type="radio" id="form2Label" name="selectedForm" className='formLabel' checked/>
+        {/* <input type="radio" id="form1Label" name="selectedForm" className='formLabel' checked/>
+        <input type="radio" id="form2Label" name="selectedForm" className='formLabel' checked/> */}
       <div className="formsOuterWrapper">
 
 
