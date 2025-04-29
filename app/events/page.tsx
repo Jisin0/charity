@@ -1,25 +1,38 @@
 import React from 'react'
 
+import Card from '../components/Card'
+
 export default function Events() {
   return (
     <div className='mainContainer'>
-      <h2>Events</h2>
+      <br/>
+      <br/>
+      <Card background={"url(group_image.jpg)"}>
 
-      <p>
-        At Slovenské Vzdelávacie Centrum – South Manchester, we believe that Slovak culture should be <b>experienced</b>, not just learned. 
-        That’s why we organise a <b>variety of events</b> for everyone—families, children, adults, and individuals who simply want to <b>connect with Slovak heritage</b>, make new friends, and enjoy great company.
-      </p>
+        <h2 className='text-white shadow-black'>Events</h2>
+
+        <p className='text-white shadow-black'>
+          At Slovenské Vzdelávacie Centrum – South Manchester, we believe that Slovak culture should be <b>experienced</b>, not just learned. 
+          That’s why we organise a <b>variety of events</b> for everyone—families, children, adults, and individuals who simply want to <b>connect with Slovak heritage</b>, make new friends, and enjoy great company.
+        </p>
+        <br/>
+
+        <p className='text-white shadow-black'>
+          Whether you’re a parent wanting to engage your child in Slovak traditions, a single professional looking to expand your social circle, or someone who just loves Slovak culture, our variety of events and workshops provides a welcoming space where people can enjoy themselves, have fun, eat traditional Slovak food, and build lasting connections.
+        </p>
 
       <br/>
 
-      <p>
-        Whether you’re a parent wanting to engage your child in Slovak traditions, a single professional looking to expand your social circle, or someone who just loves Slovak culture, our variety of events and workshops provides a welcoming space where people can enjoy themselves, have fun, eat traditional Slovak food, and build lasting connections.
-      </p>
+        <p className='text-white shadow-black'>Some come for the cultural experience, some come to practise their Slovak, and others just come to enjoy good company over a coffee or a glass of wine. Whatever your reason, you are always welcome.</p> 
 
-      <br/>
 
-      <p>Some come for the cultural experience, some come to practise their Slovak, and others just come to enjoy good company over a coffee or a glass of wine. Whatever your reason, you are always welcome.</p> 
+        <br/>
+        <br/>
+        <br/>
 
+      </Card>
+
+      
       <h3>Upcoming Events</h3>
       <p>Join us for our upcoming events—come with friends or come alone; you’ll always find a warm and friendly group to welcome you.</p>
 
