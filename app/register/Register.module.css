@@ -1,5 +1,5 @@
 .formWrapper {
-    position: absolute;
+    position: absolute !important;
     top: -20;
     left: 0;
     display: flex;

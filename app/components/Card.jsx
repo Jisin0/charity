@@ -4,7 +4,7 @@ const Card = ({ background, children }) => {
     const hasBackground = Boolean(background);
   
     return (
-      <div className="card" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="card text-white" style={{ position: 'relative', overflow: 'hidden' }}>
         {hasBackground && (
           <div
             style={{

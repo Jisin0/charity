@@ -1,22 +1,27 @@
 import React from 'react'
+import Card from '../components/Card'
 
 export default function School() {
   return (
       <div className="mainContainer">
-        <h2>Our Approach</h2>
-        
-        <p>
-          At <b>Slovenské Vzdelávacie Centrum – South Manchester</b>, we are proud to be <b>qualified educators</b> with extensive experience across various educational settings.
-          Our goal is to provide a <b>student-centred, engaging, and culturally enriching learning environment</b>, where language learning goes hand in hand with cultural education.
-        </p>
-        
-        <h3>Integrated Language & Cultural Learning</h3>
-        
-        <p>
-          We believe that <b>language and culture are inseparable</b>, which is why our curriculum aligns with our <b>cultural events and workshops</b>. 
-          This approach ensures that students not only learn Slovak in the classroom but also experience it in <b>real-life situations</b>. 
-          While these events are part of our curriculum, they are also open to members who wish to attend workshops only, providing flexibility to suit individual interests.
-        </p>
+        <br/>
+        <br/>
+        <Card background={"url(school_image.jpg)"}>
+          <h2>Our Approach</h2>
+          
+          <p>
+            At <b>Slovenské Vzdelávacie Centrum – South Manchester</b>, we are proud to be <b>qualified educators</b> with extensive experience across various educational settings.
+            Our goal is to provide a <b>student-centred, engaging, and culturally enriching learning environment</b>, where language learning goes hand in hand with cultural education.
+          </p>
+          
+          <h3>Integrated Language & Cultural Learning</h3>
+          
+          <p>
+            We believe that <b>language and culture are inseparable</b>, which is why our curriculum aligns with our <b>cultural events and workshops</b>.
+            This approach ensures that students not only learn Slovak in the classroom but also experience it in <b>real-life situations</b>.
+            While these events are part of our curriculum, they are also open to members who wish to attend workshops only, providing flexibility to suit individual interests.
+          </p>
+        </Card>
 
         <h3>Our Teaching Methods</h3>
         
