@@ -20,18 +20,12 @@ export default function ParallaxBanner() {
           return
         }
 
-        // const cloud1 = document.getElementById("layer3")
-        // if (cloud1==null){
-        //   return
-        // }
-    
         window.addEventListener("scroll", () => {
           const value = window.scrollY
     
           text.style.marginTop = value * -0.01+"px"
           img1.style.top = value *1+"px"
           img2.style.top = value *0.5+"px"
-          // cloud1.style.top = value *0.25+"px"
     
         })
       })
@@ -51,18 +45,6 @@ export default function ParallaxBanner() {
       className="foreground"
     />
 
-    {/* <img
-    id="layer3"
-      src="/layer-3.png"
-      alt="Layer 3"
-      className="foreground cloud"
-    />
-    <img
-    id = "layer3"
-      src="/layer-4.png"
-      alt="Layer 3"
-      className="foreground"
-    /> */}
     <h1 className="title" id="title">Slovenské Vzdelávacie Centrum</h1>
   
 </div>

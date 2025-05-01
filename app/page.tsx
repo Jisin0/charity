@@ -1,29 +1,9 @@
 import ParallaxBanner from "./components/ParallaxBanner";
-// import { useEffect } from "react";
-
 import PartnersSlider from "@/app/components/PartnersSlider/PartnersSlider";
 
 export default function Home() {
-  // useEffect(() => {
-  //   const sections = document.querySelectorAll(".fade-in");
-
-  //   const observer = new IntersectionObserver((entries) => {
-  //     entries.forEach(entry => {
-  //       if (entry.isIntersecting) {
-  //         entry.target.classList.add("visible");
-  //       }
-  //     });
-  //   });
-
-  //   sections.forEach(section => observer.observe(section));
-
-  //   return () => observer.disconnect(); // Cleanup observer on unmount
-  // }, []);
-
   return (
     <main>
-      {/* <script src="/animate.js" defer/> */}
-
       <ParallaxBanner />
 
         <section className="sec" id="about">   
