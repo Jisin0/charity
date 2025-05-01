@@ -254,7 +254,7 @@ export default function Home() {
           <p>We look forward to welcoming you to Slovenské Vzdelávacie Centrum – South Manchester! Our team is here to support you and your children on your bilingual journey, helping you stay connected to Slovak language, education, and traditions and more. </p>
         </div>
 
-        <div className="fade-in left">
+        <div className="fade-in left" id="partners">
           <h2> Our Partners </h2>
           <p>
           At Slovenské Vzdelávacie Centrum – South Manchester, we believe in the power of collaboration.

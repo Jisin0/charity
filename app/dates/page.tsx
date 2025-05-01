@@ -11,7 +11,7 @@ export default function Dates() {
         </p>
         <br/><br/>
         <p>We offer Saturday Slovak language lessons at two locations:</p>
-        <div className="cardsContainer">
+        <div className="cardsContainer" id="locations">
           <div className="card">
             <b> Morning (AM) Sessions</b><br/>
             <i>10:00 - 12:00 am</i><br/><br/>
@@ -31,48 +31,50 @@ export default function Dates() {
         </div>
         <p>Although we primarily serve South Manchester, we welcome students from all areas.</p>
        
-        <h4>2024/2025 Term Dates</h4>
-          <table className={styles.datesTable}>
-            <thead>
-              <tr>
-                <th>Term</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-                <th>Weeks</th>
-                <th>Holidays</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Autum</td>
-                <td>02/02/2024</td>
-                <td>14/12/2024</td>
-                <td>7 Weeks</td>
-                <td>Christmas Holiday After Term Ends </td>
-              </tr>
-              <tr>
-                <td>Winter</td>
-                <td>11/01/2025</td>
-                <td>08/02/2025</td>
-                <td>5 Weeks</td>
-                <td>February Holiday After Term Ends </td>
-              </tr>
-              <tr>
-                <td>Spring</td>
-                <td>01/03/2025</td>
-                <td>17/05/2025</td>
-                <td>10 Weeks</td>
-                <td>Easter Holiday (12th & 19th April) May Holiday After Term Ends </td>
-              </tr>
-              <tr>
-                <td>Summer</td>
-                <td>07/06/2025</td>
-                <td>12/07/2025</td>
-                <td>6 Weeks</td>
-                <td>Summer Holiday After Term Ends </td>
-              </tr>
-            </tbody>
-          </table>
+        <section id="table">
+          <h4 >2024/2025 Term Dates</h4>
+            <table className={styles.datesTable}>
+              <thead>
+                <tr>
+                  <th>Term</th>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                  <th>Weeks</th>
+                  <th>Holidays</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Autum</td>
+                  <td>02/02/2024</td>
+                  <td>14/12/2024</td>
+                  <td>7 Weeks</td>
+                  <td>Christmas Holiday After Term Ends </td>
+                </tr>
+                <tr>
+                  <td>Winter</td>
+                  <td>11/01/2025</td>
+                  <td>08/02/2025</td>
+                  <td>5 Weeks</td>
+                  <td>February Holiday After Term Ends </td>
+                </tr>
+                <tr>
+                  <td>Spring</td>
+                  <td>01/03/2025</td>
+                  <td>17/05/2025</td>
+                  <td>10 Weeks</td>
+                  <td>Easter Holiday (12th & 19th April) May Holiday After Term Ends </td>
+                </tr>
+                <tr>
+                  <td>Summer</td>
+                  <td>07/06/2025</td>
+                  <td>12/07/2025</td>
+                  <td>6 Weeks</td>
+                  <td>Summer Holiday After Term Ends </td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
           <b>Note</b>: Term dates align with Trafford Council school holidays where possible, though some variations may apply.<br/><br/>
         <h3>Fees and Payment Options</h3>
         <p>We offer two flexible payment options: <b>Term Fees</b> for committed learners and a <b>Pay-As-You-Go</b> option for families who prefer flexibility.</p>

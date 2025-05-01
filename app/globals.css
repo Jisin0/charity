@@ -200,7 +200,7 @@ footer {
     border-width: 1px;
 }
 
-.footerContainer p {
+.footerTitle {
     font-size: 1rem;
     font-weight: 400;
     color: var(--brown);
@@ -210,12 +210,21 @@ footer {
 .footerContainer li {
     display: flex;
     padding-top: 1%;
-    font-size: 0.75rem;
+    font-size: 1rem;
     align-items: center;
+}
+
+.footerContainer a:hover {
+    color: var(--brown);
+    transition: color 0.3s ease;
 }
 
 .footerContainer li svg {
     padding-right: 5px;
+}
+
+#footerItem {
+    font-size: 1rem;
 }
 
 .volunteerFooter {

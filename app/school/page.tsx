@@ -23,28 +23,29 @@ export default function School() {
           </p>
         </Card>
 
-        <h3>Our Teaching Methods</h3>
-        
-        <p>Our teaching is always <b>student-centred</b>, focusing on <b>active participation, communication, and real-world application</b>. We incorporate several well-established language teaching methodologies, including:</p>
-
-        <div className="cardsContainer fade-in right">
-          <div className="card">
-            <b>Communicative Language Teaching (CLT)</b><br/>
-            <i>Prioritising fluency over accuracy, especially in the early stages of learning, to build confidence in speaking.</i>
+        <section id="methods">
+          <h3>Our Teaching Methods</h3>
+          
+          <p>Our teaching is always <b>student-centred</b>, focusing on <b>active participation, communication, and real-world application</b>. We incorporate several well-established language teaching methodologies, including:</p>
+          <div className="cardsContainer fade-in right">
+            <div className="card">
+              <b>Communicative Language Teaching (CLT)</b><br/>
+              <i>Prioritising fluency over accuracy, especially in the early stages of learning, to build confidence in speaking.</i>
+            </div>
+            <div className="card">
+              <b>Task-Based Learning (TBL)</b><br/>
+              <i>Using real-life tasks to develop vocabulary and functional language skills.</i>
+            </div>
+            <div className="card">
+              <b>Content and Language Integrated Learning (CLIL)</b><br/>
+              <i>Combining language learning with cultural education, allowing students to learn Slovak through meaningful cultural topics</i>
+            </div>
+            <div className="card">
+              <b>Cooperative Language Learning (CLL)</b><br/>
+              <i>Encouraging students to work in pairs or small groups, maximising interaction, communication, and collaborative problem-solving.</i>
+            </div>
           </div>
-          <div className="card">
-            <b>Task-Based Learning (TBL)</b><br/>
-            <i>Using real-life tasks to develop vocabulary and functional language skills.</i>
-          </div>
-          <div className="card">
-            <b>Content and Language Integrated Learning (CLIL)</b><br/>
-            <i>Combining language learning with cultural education, allowing students to learn Slovak through meaningful cultural topics</i>
-          </div>
-          <div className="card">
-            <b>Cooperative Language Learning (CLL)</b><br/>
-            <i>Encouraging students to work in pairs or small groups, maximising interaction, communication, and collaborative problem-solving.</i>
-          </div>
-        </div>
+        </section>
 
         <p>
           In our classrooms, students learn by engaging in practical activities, group discussions, and interactive projects, while teachers act as facilitators, guiding students through the learning process in an immersive and supportive environment.
